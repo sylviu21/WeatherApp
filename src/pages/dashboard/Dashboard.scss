@@ -1,0 +1,29 @@
+.dashboard {
+  position: relative;
+  top:60px;
+  display: flex;
+  flex-direction: column;
+
+  .container {
+    display: flex;
+
+    .space {
+      flex: 0 0 50%;
+      display: none;
+
+      @media screen and (min-width: 1000px) {
+        display: flex;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+    }
+    .weather {
+      width: 100%;
+      background-color: #ffb236;
+    }
+  }
+}
